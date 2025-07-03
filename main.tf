@@ -10,3 +10,9 @@ resource "harness_platform_project" "project" {
     identifier = "terraform_test_project"  
     org_id    = "default"  
 }
+
+resource "harness_platform_project" "project" {  
+    name      = "Terraform Test Project 2"  
+    identifier = "terraform_test_project_2"  
+    org_id    = "default"  
+}
